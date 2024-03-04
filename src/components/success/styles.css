@@ -1,0 +1,307 @@
+.wrap{
+    background-color: #36384D;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.successcard{
+    width: 60%;
+    height: 98%;
+    background-color: white;
+    color: hsl(234, 29%, 20%);
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto';
+
+}
+.successcard__icon{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto';
+    align-items: flex-start;
+    width: 65px;
+    margin: 140px 0px 25px 20px
+}
+.successcard__title{
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: hsl(234, 29%, 20%);
+    margin: 20px 0px 0px 20px;
+    width: 60%
+}
+.successcard__msg{
+    margin: 25px 0px 20px 25px;
+    line-height: 1.6;
+    width: 76%;
+    text-align: left;
+    font-size: 1.05rem;
+}
+.bold{
+    font-weight: 900;
+}
+.successcard__btn{
+    background-color: hsl(234, 29%, 20%);
+    color: white ;
+    width: 85%;
+    padding: 20px;
+    margin-top: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 250px auto;
+    cursor: pointer;
+}
+.successcard__btn:hover{
+    background: linear-gradient(135deg, #FF537B,#FF693E);
+    box-shadow: 2px 4px 15px 2px #FF693E;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1025px) {
+    .wrap{
+        background-color: #36384D;
+        width: 100vw;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .successcard{
+        width: 38%;
+        height: 57%;
+        background-color: white;
+        color: hsl(234, 29%, 20%);
+        display: flex;
+        flex-direction: column;
+        font-family: 'roboto';
+        border-radius: 30px;
+    }
+
+    .successcard__icon{
+        width: 65px;
+        margin: 40px 0px 15px 60px
+    }
+
+    .successcard__title{
+        font-size: 2.8rem;
+        font-weight: 900;
+        color: hsl(234, 29%, 20%);
+        margin: 20px 0px 0px 60px;
+        width: 60%
+    }
+    .successcard__msg{
+        margin: 25px 0px 20px 60px;
+        line-height: 1.6;
+        width: 76%;
+        text-align: left;
+        font-size: 1.05rem;
+    }
+    .successcard__btn{
+        background-color: hsl(234, 29%, 20%);
+        color: white ;
+        width: 76%;
+        padding: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.534);
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .successcard__btn:hover{
+        background: linear-gradient(135deg, #FF537B,#FF693E);
+        box-shadow: 2px 4px 15px 2px #FF693E;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrap{
+        background-color: #36384D;
+        width: 100vw;
+        height:100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .successcard{
+        width: 30%;
+        height: 60%;
+        background-color: white;
+        color: hsl(234, 29%, 20%);
+        display: flex;
+        flex-direction: column;
+        font-family: 'roboto';
+        border-radius: 30px;
+    }
+
+    .successcard__icon{
+        width: 65px;
+        margin: 40px 0px 15px 60px
+    }
+
+    .successcard__title{
+        font-size: 2.8rem;
+        font-weight: 900;
+        color: hsl(234, 29%, 20%);
+        margin: 20px 0px 0px 60px;
+        width: 60%
+    }
+    .successcard__msg{
+        margin: 25px 0px 20px 60px;
+        line-height: 1.6;
+        width: 76%;
+        text-align: left;
+        font-size: 1.05rem;
+    }
+    .successcard__btn{
+        background-color: hsl(234, 29%, 20%);
+        color: white ;
+        width: 76%;
+        padding: 20px;    .wrapper{
+            background-color: #36384D;
+            width: 100vw;
+            height:100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         
+        }
+        .successcard{
+            width: 35%;
+            height: 70%;
+            background-color: white;
+            color: hsl(234, 29%, 20%);
+            display: flex;
+            flex-direction: row-reverse;
+    
+            justify-content: center;
+            font-family: 'roboto';
+            border-radius: 25px;
+        }
+        .rightdiv{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 80%;
+            border-radius: 20px 20px 20px 20px;
+            margin-right: 10px;
+            background-image: none;
+    
+     }
+    
+        .rightdiv__img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px 20px 20px 20px;
+        }
+        .leftdiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 20px auto 0px 50px;
+            width: 42%;
+            height: 100%;   
+        }
+        .card__msg{
+            margin: 20px 0px 20px 0px;
+            line-height: 1.6;
+        }
+        .card__title{
+            font-size: 3.4rem;
+            font-weight: 900;
+            color: hsl(234, 29%, 20%);
+            text-align: left;
+        }
+        
+        .row{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-bottom: -7.5px;
+        
+        }
+        .card__icon{
+            width: 22px;
+            margin-right: 15px;
+            margin-bottom: 20px;
+        
+        }
+        .card__input{
+            width: 95%;
+            padding: 20px;
+            border: 1px solid rgba(128, 128, 128, 0.534);
+            border-radius: 10px;
+            color: black;
+        }
+        
+        .card__input:focus{
+            outline: none;
+            box-shadow: 0px 0px 5px hsla(234, 29%, 20%, 0.6);
+            border-width: 1.5px;
+        }
+        .card__input::placeholder{
+            color: rgba(128, 128, 128, 0.918);
+            font-family: 'josefinsans';
+            font-size: 1.1rem;
+        }
+        .card__input-errormsg{
+            position: relative;
+            bottom: 80%;
+            right: 5%;
+            width: 50%;
+            color: hsl(0, 93%, 68%);
+            margin-left: 270px;
+            font-size: 0.75rem;
+            font-weight: 900;
+        }
+        .error{
+            background-color: hsla(4, 100%, 67%, 0.144);
+            border: 1px solid hsl(4, 100%, 67%);
+        }
+        .error::placeholder {
+            color: hsl(4, 100%, 67%);;
+        }
+        
+        .card__inputheader{
+            color: hsl(234, 29%, 20%);
+            font-weight: 900;
+            font-size: 0.72rem;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        .card__btn{
+            background-color: hsl(234, 29%, 20%);
+            color: white ;
+            width: 96%;
+            padding: 20px;
+            margin-top: 25px;
+            border: 1px solid rgba(128, 128, 128, 0.534);
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .card__btn:hover{
+            background: linear-gradient(135deg, #FF537B,#FF693E);
+            box-shadow: 2px 4px 15px 2px #FF693E;
+            cursor: pointer;
+        }
+        border: 1px solid rgba(128, 128, 128, 0.534);
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .successcard__btn:hover{
+        background: linear-gradient(135deg, #FF537B,#FF693E);
+        box-shadow: 2px 4px 15px 2px #FF693E;
+        cursor: pointer;
+    }
+}
