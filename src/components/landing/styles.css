@@ -96,8 +96,8 @@
 }
 .card__input-errormsg{
     position: relative;
-    bottom: 87%;
-    right: 8%;
+    bottom: 80%;
+    right: 7%;
     width: 50%;
     color: hsl(0, 93%, 68%);
     margin-left: 270px;
