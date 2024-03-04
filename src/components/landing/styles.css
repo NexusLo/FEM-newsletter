@@ -174,8 +174,9 @@
      
     }
     .card{
-        width: 70%;
-        height: 65%;
+        max-width: 860px;
+        width: 77%;
+        height: 61%;
         background-color: white;
         color: hsl(234, 29%, 20%);
         display: flex;
@@ -296,7 +297,6 @@
     }
 }
 
-
 @media (min-width: 1440px) {
     .wrapper{
         background-color: #36384D;
@@ -309,8 +309,9 @@
      
     }
     .card{
-        width: 50%;
+        width: 51%;
         height: 67%;
+        max-width: 8800px;
         background-color: white;
         color: hsl(234, 29%, 20%);
         display: flex;
